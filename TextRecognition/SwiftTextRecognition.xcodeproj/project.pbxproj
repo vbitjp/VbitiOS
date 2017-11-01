@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43C30D715DA675D931FE1F3A /* Pods_SwiftTextRecognition.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA6F4045404C255CD3969A4A /* Pods_SwiftTextRecognition.framework */; };
+		A4EDD87F1DBEEAAD005EBC45 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = A4EDD87E1DBEEAAD005EBC45 /* tessdata */; };
+		A4F75C881DBDFABB00A16ECC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F75C871DBDFABB00A16ECC /* AppDelegate.swift */; };
+		A4F75C8A1DBDFABB00A16ECC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F75C891DBDFABB00A16ECC /* ViewController.swift */; };
+		A4F75C8D1DBDFABB00A16ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F75C8B1DBDFABB00A16ECC /* Main.storyboard */; };
+		A4F75C8F1DBDFABB00A16ECC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4F75C8E1DBDFABB00A16ECC /* Assets.xcassets */; };
+		A4F75C921DBDFABB00A16ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4F75C901DBDFABB00A16ECC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		23F6B1F2C700674D3A5C5B50 /* Pods-SwiftTextRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTextRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTextRecognition/Pods-SwiftTextRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EDD87E1DBEEAAD005EBC45 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		A4F75C841DBDFABB00A16ECC /* SwiftTextRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTextRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4F75C871DBDFABB00A16ECC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4F75C891DBDFABB00A16ECC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4F75C8C1DBDFABB00A16ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4F75C8E1DBDFABB00A16ECC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4F75C911DBDFABB00A16ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4F75C931DBDFABB00A16ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6F4045404C255CD3969A4A /* Pods_SwiftTextRecognition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTextRecognition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8F3B6CD4DDCB3CF2375C3BB /* Pods-SwiftTextRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTextRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTextRecognition/Pods-SwiftTextRecognition.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4F75C811DBDFABB00A16ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43C30D715DA675D931FE1F3A /* Pods_SwiftTextRecognition.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4F75C7B1DBDFABB00A16ECC = {
+			isa = PBXGroup;
+			children = (
+				A4F75C861DBDFABB00A16ECC /* SwiftTextRecognition */,
+				A4F75C851DBDFABB00A16ECC /* Products */,
+				F9FDF42C9D6733D9B56B0C61 /* Pods */,
+				CAA8AA8DA47014FF414A4FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A4F75C851DBDFABB00A16ECC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4F75C841DBDFABB00A16ECC /* SwiftTextRecognition.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4F75C861DBDFABB00A16ECC /* SwiftTextRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				A4F75C871DBDFABB00A16ECC /* AppDelegate.swift */,
+				A4F75C891DBDFABB00A16ECC /* ViewController.swift */,
+				A4F75C8B1DBDFABB00A16ECC /* Main.storyboard */,
+				A4EDD87E1DBEEAAD005EBC45 /* tessdata */,
+				A4F75C8E1DBDFABB00A16ECC /* Assets.xcassets */,
+				A4F75C901DBDFABB00A16ECC /* LaunchScreen.storyboard */,
+				A4F75C931DBDFABB00A16ECC /* Info.plist */,
+			);
+			path = SwiftTextRecognition;
+			sourceTree = "<group>";
+		};
+		CAA8AA8DA47014FF414A4FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA6F4045404C255CD3969A4A /* Pods_SwiftTextRecognition.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9FDF42C9D6733D9B56B0C61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23F6B1F2C700674D3A5C5B50 /* Pods-SwiftTextRecognition.debug.xcconfig */,
+				E8F3B6CD4DDCB3CF2375C3BB /* Pods-SwiftTextRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4F75C831DBDFABB00A16ECC /* SwiftTextRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4F75C961DBDFABB00A16ECC /* Build configuration list for PBXNativeTarget "SwiftTextRecognition" */;
+			buildPhases = (
+				4DD03874F09B622CEC40F1F1 /* [CP] Check Pods Manifest.lock */,
+				A4F75C801DBDFABB00A16ECC /* Sources */,
+				A4F75C811DBDFABB00A16ECC /* Frameworks */,
+				A4F75C821DBDFABB00A16ECC /* Resources */,
+				01BF3A84631D38E7671B1B92 /* [CP] Embed Pods Frameworks */,
+				608CD17FD55B8437B9DC74FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTextRecognition;
+			productName = SwiftTextRecognition;
+			productReference = A4F75C841DBDFABB00A16ECC /* SwiftTextRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4F75C7C1DBDFABB00A16ECC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yuta Fujii";
+				TargetAttributes = {
+					A4F75C831DBDFABB00A16ECC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3WYQJ7XFQG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4F75C7F1DBDFABB00A16ECC /* Build configuration list for PBXProject "SwiftTextRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4F75C7B1DBDFABB00A16ECC;
+			productRefGroup = A4F75C851DBDFABB00A16ECC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4F75C831DBDFABB00A16ECC /* SwiftTextRecognition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4F75C821DBDFABB00A16ECC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F75C921DBDFABB00A16ECC /* LaunchScreen.storyboard in Resources */,
+				A4EDD87F1DBEEAAD005EBC45 /* tessdata in Resources */,
+				A4F75C8F1DBDFABB00A16ECC /* Assets.xcassets in Resources */,
+				A4F75C8D1DBDFABB00A16ECC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01BF3A84631D38E7671B1B92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTextRecognition/Pods-SwiftTextRecognition-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTextRecognition/Pods-SwiftTextRecognition-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD03874F09B622CEC40F1F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTextRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608CD17FD55B8437B9DC74FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTextRecognition/Pods-SwiftTextRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4F75C801DBDFABB00A16ECC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F75C8A1DBDFABB00A16ECC /* ViewController.swift in Sources */,
+				A4F75C881DBDFABB00A16ECC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4F75C8B1DBDFABB00A16ECC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F75C8C1DBDFABB00A16ECC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4F75C901DBDFABB00A16ECC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4F75C911DBDFABB00A16ECC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4F75C941DBDFABB00A16ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4F75C951DBDFABB00A16ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4F75C971DBDFABB00A16ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F6B1F2C700674D3A5C5B50 /* Pods-SwiftTextRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SwiftTextRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.SwiftTextRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4F75C981DBDFABB00A16ECC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8F3B6CD4DDCB3CF2375C3BB /* Pods-SwiftTextRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SwiftTextRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.SwiftTextRecognition;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4F75C7F1DBDFABB00A16ECC /* Build configuration list for PBXProject "SwiftTextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F75C941DBDFABB00A16ECC /* Debug */,
+				A4F75C951DBDFABB00A16ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4F75C961DBDFABB00A16ECC /* Build configuration list for PBXNativeTarget "SwiftTextRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4F75C971DBDFABB00A16ECC /* Debug */,
+				A4F75C981DBDFABB00A16ECC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4F75C7C1DBDFABB00A16ECC /* Project object */;
+}
